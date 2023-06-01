@@ -1,20 +1,20 @@
 class script(object):
     START_TXT = """<b>ʜᴇʟʟᴏ</b> {},
-<b>ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ, ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ. ᴛʜᴇ ʙᴏᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʀᴇꜱᴜʟᴛꜱ ᴀɴᴅ ꜱᴇʟᴇᴄᴛ ᴡʜɪᴄʜ ꜰɪʟᴇ ᴀɴᴅ ᴡʜɪᴄʜ ꜱɪᴢᴇ ʏᴏᴜ ᴡᴀɴᴛ😍</b> \n \n <b>Bot Created By :- @Waldy_Writings\n Powered By :- @waldy_writings</b>"""
+<b>ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴍᴏᴠɪᴇꜱ ʜᴇʀᴇ, ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ. ᴛʜᴇ ʙᴏᴛ ᴡɪʟʟ ᴘʀᴏᴠɪᴅᴇ ʀᴇꜱᴜʟᴛꜱ ᴀɴᴅ ꜱᴇʟᴇᴄᴛ ᴡʜɪᴄʜ ꜰɪʟᴇ ᴀɴᴅ ᴡʜɪᴄʜ ꜱɪᴢᴇ ʏᴏᴜ ᴡᴀɴᴛ😍</b> \n \n <b>Bot Modified By :- @cinephilessclub\n Sponsored By :- @cinephilessclub</b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞: {}
-✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/waldy_writings>WALDY🔥</a>
+✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/cinephilessclub>WALDY🔥</a>
 ✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞  :- MONGODB
 ✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 :- HEROKU
 ✯ 𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧:- V 4.1.3
 """
     SOURCE_TXT = """<b>NOTE:</b>
 - our bot is a private. 
-- Get Access - https://telegram.me/Waldy_writings  
+- Get Access - https://telegram.me/cinephilessclub  
 
 <b>DEVS:</b>
-- <a href=https://t.me/waldy_writings>Team @waldy_writingss</a>"""
+- <a href=https://t.me/cinephilessclub>Team @cinephilessclub</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and our bot will respond whenever a keyword is found the message
@@ -39,7 +39,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:http://t.me/Waldy_Writingss_SearchBot)</code>
+<code>[Button Text](buttonurl:http://t.me/cinephilessclub)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -96,7 +96,7 @@ This module only works for my admins
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 
-★ Powered BY @WALDY_WRITINGSS"""
+★ Powered BY @cinephilessclub"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
