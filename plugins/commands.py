@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('CHANNELl', url='https://telegram.me/cinephilessclub')
+                InlineKeyboardButton('CHANNELl', url='https://t.me/+D2Rlzh2x67E2NzE1')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -43,14 +43,14 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [
             [
-            InlineKeyboardButton('REQUEST GROUP', url='https://t.me/Admoviemania')
+            InlineKeyboardButton('REQUEST GROUP', url='https://t.me/+cN9uTu5gK1U0MzFl')
         ],[
-            InlineKeyboardButton('CHANNEL', url='https://telegram.me/cinephilessclub'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/Admoviemania')
+            InlineKeyboardButton('CHANNEL', url='https://t.me/+D2Rlzh2x67E2NzE1'),
+            InlineKeyboardButton('👥 Support Chat', url='https://t.me/+cN9uTu5gK1U0MzFl')
             ],[
                 InlineKeyboardButton('🔎Search Movies Here🔍', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('JOIN HERE🙂', url='https://telegram.me/cinephilessclub')
+            InlineKeyboardButton('JOIN HERE🙂', url='https://t.me/+D2Rlzh2x67E2NzE1')
             
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -70,7 +70,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "Click Here To Join🔥", url='https://telegram.me/cinephilessclub' #invite_link.invite_link
+                    "Click Here To Join🔥", url='https://t.me/+D2Rlzh2x67E2NzE1' #invite_link.invite_link
                 )
             ]
         ]
@@ -92,14 +92,14 @@ async def start(client, message):
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [
             [
-             InlineKeyboardButton('REQUEST GROUP', url='https://t.me/Admoviemania')
+             InlineKeyboardButton('REQUEST GROUP', url='https://t.me/+cN9uTu5gK1U0MzFl')
             ],[
-            InlineKeyboardButton('Channel🙂', url='https://telegram.me/cinephilessclub'),
-            InlineKeyboardButton('👥 Support Chat', url='https://telegram.me/Admoviemania')
+            InlineKeyboardButton('Channel🙂', url='https://t.me/+D2Rlzh2x67E2NzE1'),
+            InlineKeyboardButton('👥 Support Chat', url='https://t.me/+cN9uTu5gK1U0MzFl')
             ],[
                 InlineKeyboardButton('🔎Search Movies Here🔍', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('Join Here😀', url='https://telegram.me/cinephilessclub')
+            InlineKeyboardButton('Join Here😀', url='https://t.me/+D2Rlzh2x67E2NzE1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
