@@ -407,9 +407,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TG_Movies4u')
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/+D2Rlzh2x67E2NzE1')
         ], [
-            InlineKeyboardButton('🤔 How To Use', url='https://telegram.dog/TG_Movies4u/81')
+            InlineKeyboardButton('🤔 How To Use', url='https://t.me/+D2Rlzh2x67E2NzE1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
