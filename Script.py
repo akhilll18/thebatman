@@ -4,23 +4,23 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝐁𝐨𝐭 𝐍𝐚𝐦𝐞: {}
-✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://telegram.me/cinephilessclub>CINE🔥</a>
+✯ 𝐂𝐫𝐞𝐚𝐭𝐨𝐫 <a href=https://t.me/DostulaMuchatlu_bot>CLICK HERE🔥</a>
 ✯ 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞  :- MONGODB
 ✯ 𝐁𝐨𝐭 𝐒𝐞𝐫𝐯𝐞𝐫 :- HEROKU
 ✯ 𝐁𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧:- V 4.1.3
 """
     SOURCE_TXT = """<b>NOTE:</b>
 - our bot is a private. 
-- Get Access - https://telegram.me/cinephilessclub  
+- Get Access - https://t.me/+D2Rlzh2x67E2NzE1  
 
 <b>DEVS:</b>
-- <a href=https://t.me/cinephilessclub>Team @cinephilessclub</a>"""
+- <a href=https://t.me/DostulaMuchatlu_bot>Team @DostulaMuchatlu_bot</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and our bot will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. Waldy Bot should have admin privillage.
+1. DostulaMuchatluBot should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -31,7 +31,7 @@ class script(object):
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- WALDY WRITINGSS SEARCH BOT Supports both url and alert inline buttons.
+- DostulaMuchatluBot Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
@@ -39,7 +39,7 @@ class script(object):
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:http://t.me/cinephilessclub)</code>
+<code>[Button Text](buttonurl:http://t.me/DostulaMuchatlu_bot)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
